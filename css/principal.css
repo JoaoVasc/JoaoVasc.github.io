@@ -9,7 +9,7 @@
     }
     body{
         background-color:rgb(41, 41, 41);
-        font-family: montserrat;
+        font-family: montserrat, sans-serif, Arial, Helvetica;
         width: 80%;
         margin: 0 auto;
     }
