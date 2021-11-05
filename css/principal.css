@@ -134,12 +134,15 @@
         text-align: center;
         margin-top: 8%;
     }
-    .placasP, .placasL, .placasL2, .placasP2{
+    #museu{
+        display: block;
         width: 250px;
         height: 350px;
-        background-color: #ff4500;
-        margin: 0.5%;
-        margin-top: 5%;
+        background: url(../img/projeto1h.png);
+        transition: 0.5s all;
+    }
+    #projetos a:hover{
+        background: url(../img/projeto1.png);
     }
     #p4 h3, #p5 h3{
         margin-top: 10%;
