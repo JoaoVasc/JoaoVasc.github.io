@@ -20,18 +20,6 @@
         margin-top: 2%;
         height: auto;
     }
-    #arte{
-        float: left;
-        margin-left: 33%;
-        margin-top: 3%;
-        border: 1px solid #fff;
-        width: 300px;
-        height: 300px;
-        background-image: url(../img/arte.jpg);
-        background-size: cover;
-        background-position: right;
-        border-radius: 150px;
-    }
     nav{
         color: #ff4500;
         margin-top: 2.5%;
@@ -55,20 +43,42 @@
         color: #ff4500;
         text-decoration: none;
     }
-    #home{
-        margin-top: 6%;
-        float: left;
+    #botao{
+        margin-top: 20px;
+        display: flex;
+        width: 371px;
+        flex-wrap: wrap;
     }
-    #home p{
-        color: #ff4500;
-        font-size: 1.1em;
-        margin-bottom: 15px;
-    }
-    #home h1 {
+    #p1 h1{
         color: azure;
         font-size: 2.5em;
     }
+    #p1 p{
+        color: #ff4500;
+    }
+    #eu{
+        margin-top: 50px;
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
+    #img{
+        float: right;
+        margin-top: 25px;
+        border: 1px solid #fff;
+        width: 200px;
+        height: 200px;
+        background: url(../img/arte.jpg);
+        background-size: cover;
+        background-position: right;
+        border-radius: 100px;
+    }
     #cv{
+        display: block;
+        text-align: center;
+        width: 180px;
+        height: 50px;
         color: rgb(24, 24, 24);
         text-decoration: none;
         transition: 0.5s all;
@@ -76,8 +86,12 @@
         border-radius: 8px;
         background-color: #ff4500;
         box-shadow: 1px 1px 15px 0px;
+        margin-right: 10px;
     }
     #ctt{
+        display: block;
+        width: 180px;
+        height: 50px;
         color: #ff4500;
         text-decoration: none;
         padding: 15px;
@@ -95,7 +109,7 @@
         border: 1px solid orange;
         box-shadow: 1px 1px 15px 0px;
     }
-    #p1,#p2,#p3,#p4,#p5{
+    #p1,#p2,#p3,#p4,#p5,#botao{
         width: 80%;
         margin: 0 auto;
     }
@@ -106,12 +120,19 @@
     }
     #p2 h3{
         color: #ff4500;
+        
     }
     #p2 p{
         color: azure;
     }
     #icons{
+        display: flex;
         margin-top: 15%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #icons a {
+        display: block;
     }
     #in, #ig, #em{
         margin: 10%;
@@ -127,12 +148,6 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
-    #icons h3{
-        margin-bottom: 10%;
-        color: #ff4500;
-        text-align: center;
-        margin-top: 8%;
     }
     #museu{
         display: block;
@@ -169,4 +184,16 @@
     footer{
         text-align: center;
         color: #fff;
+    }
+    @media (max-width: 767px) {
+        #botao{
+            display: block;
+        }
+        #ctt{
+            margin-top: 10px;
+        }
+        #img{
+            float: left;
+            margin-bottom: 15px;
+        }
     }
