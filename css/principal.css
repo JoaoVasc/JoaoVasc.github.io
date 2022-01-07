@@ -149,15 +149,29 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+    #projetos a{
+        margin-top: 15px;
+    }
     #museu{
         display: block;
-        width: 250px;
-        height: 350px;
+        width: 350px;
+        height: 250px;
         background: url(../img/projeto1h.png);
+        background-size: cover;
         transition: 0.5s all;
     }
-    #projetos a:hover{
+    #museu:hover{
         background: url(../img/projeto1.png);
+    }
+    #reclame_aqui{
+        display: block;
+        width: 350px;
+        height: 250px;
+        background: url(../img/projeto2.png);
+        transition: 0.5s all;
+    }
+    #reclame_aqui:hover{
+        background: url(../img/projeto2h.png);
     }
     #p4 h3, #p5 h3{
         margin-top: 10%;
