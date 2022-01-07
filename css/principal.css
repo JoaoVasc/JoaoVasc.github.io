@@ -146,11 +146,8 @@
     }
     #projetos{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
-    }
-    #projetos a{
-        margin-top: 15px;
     }
     #museu{
         display: block;
